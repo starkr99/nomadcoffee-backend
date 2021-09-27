@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es2018",
+      "esModuleInterop": true,
+      "lib": ["es2018", "esnext.asynciterable"],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+  },
+  "include": ["./src/**/*"] ,
+}

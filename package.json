@@ -1,0 +1,35 @@
+{
+  "name": "nomadcoffee-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "starkr99 <starkr99@naver.com>",
+  "scripts": {
+    "dev": "nodemon --exec ts-node -e ts src/server.ts",
+    "migrate": "yarn prisma migrate dev",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.4.0",
+    "@graphql-tools/merge": "^8.0.3",
+    "@graphql-tools/schema": "^8.1.2",
+    "@prisma/client": "^3.1.1",
+    "apollo-server": "^3.3.0",
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.6.0",
+    "prisma": "^3.1.1",
+    "type-graphql": "^1.1.1"
+  }
+}
